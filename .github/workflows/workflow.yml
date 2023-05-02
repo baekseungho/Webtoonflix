@@ -29,7 +29,7 @@ jobs:
           git config --global user.name baekseungho
           git status
           # 5. change your repository
-          git remote add origin https://github.com/baekseungho/Webtoonflix 
+          git remote add origin https://github.com/baekseungho/Webtoonflix.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
