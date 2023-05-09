@@ -13,6 +13,7 @@ class Webtoon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(thumb);
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -39,7 +40,7 @@ class Webtoon extends StatelessWidget {
                         offset: const Offset(10, 10),
                         color: Colors.black.withOpacity(0.5))
                   ]),
-              child: Image.network(thumb),
+              child: Image(image: NetworkImage(thumb)),
             ),
           ),
           const SizedBox(
