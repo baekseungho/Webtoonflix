@@ -1,10 +1,10 @@
-# webtoon
+# 소개
 
-A new Flutter project.
+Flutter를 사용하여 만든 API를 활용한 네이버웹툰 불러오기 APP
 
-## Getting Started
+## 
 
-This project is a starting point for a Flutter application.
+https://webtoonflix.web.app/#/
 
 A few resources to get you started if this is your first Flutter project:
 
